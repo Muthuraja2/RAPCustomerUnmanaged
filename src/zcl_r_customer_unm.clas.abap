@@ -1,0 +1,5 @@
+CLASS zcl_r_customer_unm DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zmuthu_r_customer.
+ENDCLASS.
+
+CLASS zcl_r_customer_unm IMPLEMENTATION.
+ENDCLASS.

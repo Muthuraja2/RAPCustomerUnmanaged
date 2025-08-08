@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition - Customer'
+define service ZMUTHU_SD_CUSTOMER {
+  expose ZMUTHU_C_CUSTOMER as Customer;
+}

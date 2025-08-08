@@ -1,0 +1,8 @@
+projection;
+strict ( 2 );
+
+define behavior for ZMUTHU_C_CUSTOMER alias CustomerPrj
+{
+  use create;
+  use action bulkCreateCustomer;
+}

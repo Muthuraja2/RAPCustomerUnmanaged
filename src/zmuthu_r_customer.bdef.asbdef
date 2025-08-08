@@ -1,0 +1,11 @@
+unmanaged implementation in class zcl_r_customer_unm unique;
+strict ( 2 );
+
+define behavior for ZMUTHU_R_CUSTOMER alias Customer
+lock master
+authorization master ( instance )
+{
+  create;
+  static action bulkCreateCustomer parameter ZCUSTOMER_INPUT result [0..1] zcustomer_resp;
+  field ( readonly ) Customeruuid, Lastchangedby, Createdat, Createdby, Changedat;
+}

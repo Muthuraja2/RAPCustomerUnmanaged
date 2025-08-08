@@ -1,0 +1,7 @@
+abstract;
+strict ( 2 );
+with hierarchy;
+
+define behavior for ZABS_Customer //alias <alias_name>
+{
+}
